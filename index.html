@@ -1,18 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- heare will come favicon -->
+
+    <!-- its for  font preload for best perfomance read more I put link below html tag-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+
+    <!-- icon fonawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!--output style sheet for tailwind  -->
+     <link rel="stylesheet" href="style.css" />
+
+    <style>
+
+     html {
+      font-family:"Inter"
+     }
+
+
+    </style>
+
+    <title>PayTM Karo</title>
+
 </head>
 <body>
-  <h1 class="text-4xl">hello</h1>
+   <!-- Header nav bar -->
+<div class=" flex px-3 justify-center bg-[#FFFFFF]"> 
+  <div class="flex gap-3 items-center justify-between container h-24">
+       
+    <div class="flex items-center gap-3 ">
+      <div class=" lg:hidden">
+        <i class="fa-solid fa-bars"></i>
+       </div>
+      <div class=" flex flex-shrink-0">
+        <img class="w-44 h-14 " src="./assets/paytm_logo.png" alt="">
+      </div>
+    </div>
+
+    <div class="hidden  md:hidden  lg:flex  lg:flex-shrink lg:gap-16">
+        <a href="#">Paytm for consumers</a>
+        <a href="#">Paytm for Business</a>
+        <a href="#">Company</a>
+        <a href="#">Investor</a>
+        <a href="#">Career</a>
+    </div>
+
+    <div>
+        <button  class="flex w-28 h-10 items-center p-1 rounded-3xl justify-between bg-[#00BAF2]">
+          <p class=" pl-2 text-xs font-bold text-white">
+            Log in
+          </p>
+          <span class="">
+            <img src="./assets/user.svg" alt="">
+          </span>
+        </button>
+    </div>
+
+  </div>
+</div>
+   
+  <div class="bg-[#F6F6F6]   text-center  h-10">
+  <p class=" text-[13px]   sm:pt-2">No Wallet KYC Required 😊to pay using UPI on Paytm. Learn more.</p>
+ </div> 
+ 
+ 
+
+<!-- hero section -->
+
+
+
+
+ <div class=" flex  md:h-[45rem] lg:h-[85vh]">
+
+  <!-- hero container -->
+  <div class="flex flex-col lg:flex-row w-full items-center xl:pl-48 justify-between">
   
+    <!-- two side left and right -->
+
+    <!-- left side hero -->
+    <div class="flex flex-col gap-10 h-[30rem] lg:items-start sm:h-[550px] md:gap-14"> 
+      <div class="pt-5 md:pt-1"><img class="w-14 h-16   sm:w-20  sm:h-20" src="./assets/paytm-square.png" alt=""></div>
+      <div><h1 class="  text-4xl  md:text-[54px] md:leading-[4rem] font-bold">India's Most-loved <br> Payments App</h1></div>
+      <div><h3 class=" text-[14px] leading-[2rem] font-normal md:text-[20px]">Recharge & pay bills, book flights & movie tickets, ,<br> open a savings account, invest in stocks & mutual <br> funds, and do a lot more.</h3>
+    </div>
     
+    <div class="flex h-12  [&>div>span>svg]:fill-[#FFF] [&>div>span>svg]:hover:fill-black  hover:bg-white hover:text-black transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-black w-72  text-white border hover:border-black ">
+      <a class="mr-2" href="#">Download Paytm App </a>
+       <div class="flex gap-3 ">
+        <span>
+          <svg
+            
+          class=""
+            width="14"
+            height="16"
+            viewBox="0 0 14 16"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"></path>
+          </svg>
+        </span>
+        <span>
+        <svg
+            width="14"
+            height="16"
+            viewBox="0 0 14 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"></path>
+            </svg>
+         </span>
+       </div>
+    </div>
+</div>
+<!-- right side hero -->
+      <div>
+          <div class="md:pt-3">
+              <img class="w-[361px] h-[400px] sm:h-[580px] sm:w-[580px]" src="./assets/paytmmob.jpg" alt="">
+          </div>
+      </div>
+   </div>
+</div>
+<!-- end hero section -->
+<div class=" bg-[#00BAF2] md:h-[450px] flex p-4 items-center justify-center">
+  <div class=" flex flex-col gap-10">
+     <div class="text-left ml-5">
+       <h1 class=" text-white text-3xl  md:text-3xl md:leading-[4rem] font-bold">Recharge & Pay Bills on Paytm.</h1>
+     </div>
+     <div class="flex flex-wrap  gap-10">
+       <div class="p-3 rounded-2xl hover:bg-[#00AFE3]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/mobilepng.png" alt=""><p>Movie Tickets<i class=" ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#00AFE3]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/rent.png" alt=""><p> Flight Ticket<i class="ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#00AFE3]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/electricity.png" alt=""><p>Bus ticket<i class="ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#00AFE3]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/dth.png" alt=""><p>Train Ticket<i class="ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#00AFE3]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/gas-cylendar.png" alt=""><p>Car & Bikes<i class="ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#00AFE3]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/credit-card.png" alt=""><p>International Flights<i class=" ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#00AFE3]  flex text-white gap-3 flex-col w-[160px] h-[180px]"><img class="w-[64px] h-[64px]" src="./assets/payement-stack.png" alt="">Invest in Stocks<p><i class=" ml-3 fa-solid fa-angle-right"></i>   </p></div>
+     </div>
+   </div>
+ </div>
+
+
+
+<div class=" bg-[#0F4A8A] md:h-[450px] flex p-4 items-center justify-center">
+  <div class=" flex flex-col gap-10">
+     <div class="text-left ml-5">
+       <h1 class=" text-white text-3xl  md:text-3xl md:leading-[4rem] font-bold">Book & Buy on Paytm.</h1>
+     </div>
+     <div class="flex flex-wrap  gap-10">
+       <div class="p-3 rounded-2xl hover:bg-[#0D3E80]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/movie-ticlets.png" alt=""><p>Recharge Prepaid Mobile<i class=" ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#0D3E80]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/flight-tickets.png" alt=""><p> Pay Reant Payment<i class="ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#0D3E80]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/bus-tickets.png" alt=""><p>Pay Electricity Bill<i class="ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#0D3E80]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/train-tickets.png" alt=""><p>Recharge DTH Connection<i class="ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#0D3E80]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/cars.png" alt=""><p>Book Gas Cylinder<i class="ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#0D3E80]  flex text-white gap-6 flex-col w-[160px] h-[180px]"><img  class="w-[64px] h-[64px]"   src="./assets/flight-tickets.png" alt=""><p> Pay credit Card Bill<i class=" ml-3 fa-solid fa-angle-right"></i>   </p></div>
+       <div class="p-3 rounded-2xl hover:bg-[#0D3E80]  flex text-white gap-4 flex-col w-[160px] h-[180px]"><img class="w-[64px] h-[64px]" src="./assets/invest.webp" alt="">Payment Services<p><i class=" ml-3 fa-solid fa-angle-right"></i>   </p></div>
+     </div>
+   </div>
+ </div>
+
+<div class=" h-auto bg-gray-200">
+
+  <div class="">
+    <div class="max-w-[1280px] mx-auto ">
+
+      <div class="pt-20">
+        <h1 class="text-5xl  font-bold">Paytm Payment Instruments</h1>
+      </div>
+
+
+
+      <!-- first box -->
+
+       <div class="mt-10 p-14 rounded h-auto bg-[#FFFFFF] ">
+         <div class="flex flex-col gap-10 justify-between md:flex-row ">
+          <div class="flex flex-col gap-7">
+            <div class="flex gap-3 items-center">
+              <img class="w-[64px] h-[64px]" src="./assets/paytm-wallet.png" alt="">
+             <h1 class="text-xl font-bold">Paytm Wallet</h1>
+            </div>
+            <div> 
+              <h1 class="text-4xl   font-bold">The Fastest Way to Pay <br> In-store & Online.</h1></div>
+            <div>
+              <p>Load up your Paytm Wallet for free and make payments in <br> a jiffy at over 21 million stores, websites and apps.</p></div>
+            <div> 
+              <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
+              <!-- trageting element and fill the color in svg -->
+            <div class="flex h-12  [&>div>span>svg]:fill-[#FFF] [&>div>span>svg]:hover:fill-black  hover:bg-white hover:text-black transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-black w-72  text-white border hover:border-black ">
+              <a class="mr-2" href="#">Download Paytm App </a>
+               <div class="flex gap-3 ">
+                <span>
+                  <svg
+                    
+                  class=""
+                    width="14"
+                    height="16"
+                    viewBox="0 0 14 16"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"></path>
+                  </svg>
+                </span>
+                <span>
+                <svg
+                    width="14"
+                    height="16"
+                    viewBox="0 0 14 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"></path>
+                    </svg>
+                 </span>
+               </div>
+            </div>
+           </div>
+          </div>
+          <div>
+          <img class="max-w-[300px]  sm:max-w-[400px] sm:h-[350px] "src="./assets/paytm-addmoney.webp" alt="">
+          </div> 
+        </div>
+       </div>
+
+       <!-- first box end -->
+
+ <!-- for second box -->
+
+ <div class="mt-10 p-14 rounded h-auto bg-[#FFFFFF] ">
+  <div class="flex flex-col gap-10 justify-between md:flex-row ">
+   <div class="flex flex-col gap-7">
+     <div class="flex gap-3 items-center">
+       <img class="w-[64px] h-[64px]" src="./assets/upi-money-transfer.png" alt="">
+      <h1 class="text-xl font-bold">UPI Money Transfer</h1>
+     </div>
+     <div> 
+       <h1 class="text-4xl   font-bold">Pay anyone directly from <br> your bank account.</h1></div>
+     <div>
+       <p>Pay anyone, everywhere. Make contactless & secure <br> payments in-stores or online using Paytm Wallet or Directly <br> from your Bank Account. Plus, send & receive money from anyone.</p></div>
+     <div> 
+       <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
+       <!-- trageting element and fill the color in svg -->
+     <div class="flex h-12  [&>div>span>svg]:fill-[#FFF] [&>div>span>svg]:hover:fill-black  hover:bg-white hover:text-black transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-black w-72  text-white border hover:border-black ">
+       <a class="mr-2" href="#">Download Paytm App </a>
+        <div class="flex gap-3 ">
+         <span>
+           <svg
+             
+           class=""
+             width="14"
+             height="16"
+             viewBox="0 0 14 16"
+             xmlns="http://www.w3.org/2000/svg">
+             <path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"></path>
+           </svg>
+         </span>
+         <span>
+         <svg
+             width="14"
+             height="16"
+             viewBox="0 0 14 16"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+                 fill-rule="evenodd"
+                 clip-rule="evenodd"
+                 d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"></path>
+             </svg>
+          </span>
+        </div>
+     </div>
+    </div>
+   </div>
+   <div>
+   <img class="max-w-[300px]  sm:max-w-[400px] sm:h-[350px] "src="./assets/upi.webp" alt="">
+   </div> 
+ </div>
+</div>
+
+<!-- secon box end -->
+
+<!-- third box start -->
+
+<div class="mt-10 p-20   rounded h-auto bg-[#FFFFFF] ">
+  <div class="flex flex-col gap-10 justify-between md:flex-row ">
+   <div class="flex flex-col py-24 gap-8">
+     <div class="flex gap-3 items-center">
+       <img class="w-[183px] h-[77px]" src="./assets/paytm-postpaid.webp" alt="">
+      
+     </div>
+     <div> 
+       <h1 class="text-4xl   font-bold">Want it?  No more <br> waiting for it.<h1>
+    </div>
+     <div>
+       <p>Pay anyone, everywhere. Make contactless & secure <br> payments in-stores or online using Paytm Wallet or Directly <br> from your Bank Account. Plus, send & receive money from anyone.</p></div>
+     <div> 
+       <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
+       <!-- trageting element and fill the color in svg -->
+     <div class="flex h-12  [&>div>span>svg]:fill-[#FFF] [&>div>span>svg]:hover:fill-black  hover:bg-white hover:text-black transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-black w-72  text-white border hover:border-black ">
+       <a class="mr-2" href="#">Download Paytm App </a>
+        <div class="flex gap-3 ">
+         <span>
+           <svg
+             
+           class=""
+             width="14"
+             height="16"
+             viewBox="0 0 14 16"
+             xmlns="http://www.w3.org/2000/svg">
+             <path d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"></path>
+           </svg>
+         </span>
+         <span>
+         <svg
+             width="14"
+             height="16"
+             viewBox="0 0 14 16"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+                 fill-rule="evenodd"
+                 clip-rule="evenodd"
+                 d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"></path>
+             </svg>
+          </span>
+        </div>
+     </div>
+    </div>
+   </div>
+   <div>
+   <img class="max-w-[300px]  sm:max-w-[433px] sm:h-[500px] "src="./assets/shopping-bag.webp" alt="">
+   </div> 
+ </div>
+</div>
+
+<!-- third  box end -->
+<div>
+  gg
+</div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- read  -->
     
