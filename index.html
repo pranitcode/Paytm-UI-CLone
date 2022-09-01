@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <!--output style sheet for tailwind  -->
-     <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="./styles.css" />
 
     <style>
 
@@ -130,6 +130,7 @@
       </div>
    </div>
 </div>
+
 <!-- end hero section -->
 <div class=" bg-[#00BAF2] md:h-[450px] flex p-4 items-center justify-center">
   <div class=" flex flex-col gap-10">
@@ -148,8 +149,6 @@
    </div>
  </div>
 
-
-
 <div class=" bg-[#0F4A8A] md:h-[450px] flex p-4 items-center justify-center">
   <div class=" flex flex-col gap-10">
      <div class="text-left ml-5">
@@ -167,34 +166,34 @@
    </div>
  </div>
 
-<div class=" h-auto bg-gray-200">
+<div class=" h-full  bg-gray-200">
 
   <div class="">
     <div class="max-w-[1280px] mx-auto ">
 
       <div class="pt-20">
-        <h1 class="text-5xl  font-bold">Paytm Payment Instruments</h1>
+        <h1 class=" text-2xl sm:text-5xl  font-bold">Paytm Payment Instruments</h1>
       </div>
 
 
 
       <!-- first box -->
 
-       <div class="mt-10 p-14 rounded h-auto bg-[#FFFFFF] ">
-         <div class="flex flex-col gap-10 justify-between md:flex-row ">
+       <div class="mt-10  p-14 rounded h-auto bg-[#FFFFFF] ">
+         <div class="items-center  flex flex-col gap-10 justify-between md:flex-row ">
           <div class="flex flex-col gap-7">
             <div class="flex gap-3 items-center">
               <img class="w-[64px] h-[64px]" src="./assets/paytm-wallet.png" alt="">
-             <h1 class="text-xl font-bold">Paytm Wallet</h1>
+             <h1 class="   text-xl font-bold">Paytm Wallet</h1>
             </div>
             <div> 
-              <h1 class="text-4xl   font-bold">The Fastest Way to Pay <br> In-store & Online.</h1></div>
-            <div>
+              <h1 class=" text-2xl sm:text-4xl   font-bold">The Fastest Way to Pay <br> In-store & Online.</h1></div>
+            <div class="px-3">
               <p>Load up your Paytm Wallet for free and make payments in <br> a jiffy at over 21 million stores, websites and apps.</p></div>
             <div> 
               <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
               <!-- trageting element and fill the color in svg -->
-            <div class="flex h-12  [&>div>span>svg]:fill-[#FFF] [&>div>span>svg]:hover:fill-black  hover:bg-white hover:text-black transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-black w-72  text-white border hover:border-black ">
+            <div class=" flex h-12   [&>div>span>svg]:fill-[#FFF] [&>div>span>svg]:hover:fill-black  hover:bg-white hover:text-black transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-black w-72  text-white border hover:border-black ">
               <a class="mr-2" href="#">Download Paytm App </a>
                <div class="flex gap-3 ">
                 <span>
@@ -235,7 +234,7 @@
 
  <!-- for second box -->
 
- <div class="mt-10 p-14 rounded h-auto bg-[#FFFFFF] ">
+ <div class="mt-10  p-14 md:p-20 lg:p-20 rounded h-auto bg-[#FFFFFF] ">
   <div class="flex flex-col gap-10 justify-between md:flex-row ">
    <div class="flex flex-col gap-7">
      <div class="flex gap-3 items-center">
@@ -243,7 +242,7 @@
       <h1 class="text-xl font-bold">UPI Money Transfer</h1>
      </div>
      <div> 
-       <h1 class="text-4xl   font-bold">Pay anyone directly from <br> your bank account.</h1></div>
+       <h1 class="text-2xl   sm:text-4xl   font-bold">Pay anyone directly from <br> your bank account.</h1></div>
      <div>
        <p>Pay anyone, everywhere. Make contactless & secure <br> payments in-stores or online using Paytm Wallet or Directly <br> from your Bank Account. Plus, send & receive money from anyone.</p></div>
      <div> 
@@ -290,15 +289,15 @@
 
 <!-- third box start -->
 
-<div class="mt-10 p-20   rounded h-auto bg-[#FFFFFF] ">
-  <div class="flex flex-col gap-10 justify-between md:flex-row ">
+<div class="mt-10  p-14 sm:p-20 rounded h-auto bg-[#FFFFFF] ">
+  <div class="flex  flex-col gap-10 justify-between md:flex-row ">
    <div class="flex flex-col py-24 gap-8">
      <div class="flex gap-3 items-center">
        <img class="w-[183px] h-[77px]" src="./assets/paytm-postpaid.webp" alt="">
       
      </div>
      <div> 
-       <h1 class="text-4xl   font-bold">Want it?  No more <br> waiting for it.<h1>
+       <h1 class="  text-2xl sm:text-4xl   font-bold">Want it?  No more <br> waiting for it.<h1>
     </div>
      <div>
        <p>Pay anyone, everywhere. Make contactless & secure <br> payments in-stores or online using Paytm Wallet or Directly <br> from your Bank Account. Plus, send & receive money from anyone.</p></div>
@@ -336,32 +335,258 @@
      </div>
     </div>
    </div>
-   <div>
+   <div class="flex items-center justify-center">
    <img class="max-w-[300px]  sm:max-w-[433px] sm:h-[500px] "src="./assets/shopping-bag.webp" alt="">
    </div> 
  </div>
 </div>
 
 <!-- third  box end -->
-<div>
-  gg
+</div>
+</div>
 </div>
 
+<!-- end -->
 
 
 
 
-    </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <<                                                                         -->
+
+
+<div class="bg-[#F5F7FA]  mt-20">
+  <div class="max-w-[1280px] mx-auto">
+
+    <div class="mt-10 py-14 px-16 rounded h-auto bg-[#F5F7FA] ">
+      <div class="flex flex-col gap-10 justify-around md:flex-row ">
+
+        <div>
+          <img class="max-w-[300px]  sm:max-w-[400px] sm:h-[350px] "src="./assets/paytm-money.webp" alt="">
+        </div> 
+
+        <div class="flex flex-col gap-7">
+         <div class="flex gap-3 items-center">
+           <img class="w-auto h-[64px]" src="./assets/paytm-money-logo.webp" alt="">
+   
+         </div>
+         <div> 
+           <h1 class="text-4xl   font-bold">Build Long-term Wealth <br> & Achieve your Goals.</h1></div>
+         <div>
+           <p>Investing on Paytm Money is transparent, <br> low-cost and  commission-free. Buy stocks & mutual <br> funds that can help you create wealth  <br> & realise your dreams.p></div>
+         <div> 
+           <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
+           <!-- trageting element and fill the color in svg -->
+     <div class="flex h-12 w-36 group    transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-[#002970] hover:bg-[#00BAF2]   text-white border hover:border-[#00BAF2]">
+       <a class="mr-2" href="#">Learn More </a>
+        <div class="flex gap-3 ">
+         <span class=" group-hover:translate-x-2  transition duration-300"> <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+     </div>
+
+
+        </div>
+       </div>
+
+     </div>
+   
+ 
+   </div>
+    
   </div>
 
+</div>
+
+<div class="bg-white">
+  <div class="max-w-[1280px] mx-auto">
+
+    <div class="mt-10 p-14 rounded h-auto bg-white ">
+      <div class="flex flex-col gap-10 justify-around md:flex-row ">
+
+      
+
+        <div class="flex flex-col gap-7">
+         <div class="flex gap-3 items-center">
+           <img class="w-auto h-[64px]" src="./assets/paytm-booking.webp" alt="">
+   
+         </div>
+         <div> 
+           <h1 class="text-4xl font-bold">Insurance made easy.</h1></div>
+         <div>
+           <p>Buying insurance does not have to be tedious, <br> time-consuming & confusing. Paytm Insurance  <br> removes the worry of getting insured  <br> by making it simple, convenient & easy-to-understand.</p></div>
+         <div> 
+           <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
+           <!-- trageting element and fill the color in svg -->
+     <div class="flex h-12 w-36 group    transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-[#002970] hover:bg-[#00BAF2]   text-white border hover:border-[#00BAF2]">
+       <a class="mr-2" href="#">Learn More </a>
+        <div class="flex gap-3 ">
+         <span class=" group-hover:translate-x-2  transition duration-300"> <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+     </div>
+        </div>
+       </div>
+
+
+       <div>
+        <img class="max-w-[300px]  sm:max-w-[400px] sm:h-[350px] "src="./assets/paytm-booking-image.webp" alt="">
+      </div> 
+   
+     </div>
+   </div>
+    
+  </div>
+</div>
+
+
+<div class="bg-[#F5F7FA] ">
+  <div class="max-w-[1280px] mx-auto">
+
+    <div class="mt-10  p-14 rounded h-auto bg-[#F5F7FA] ">
+      <div class="flex flex-col gap-10 justify-around md:flex-row ">
+
+        <div>
+          <img  class=" max-w-[300px]  sm:max-w-[400px] sm:h-[350px] "src="./assets/personal-loan.webp" alt="">
+        </div> 
+
+        <div class="flex flex-col   z-50   gap-7">
+         <div class="flex gap-3 items-center">
+           <img class="w-auto h-[64px]" src="./assets/personal-loan-logo.png" alt="">
+   
+         </div>
+         <div> 
+           <h1 class="text-4xl   font-bold">Get a Personal Loan <br> in 2 Minutes.</h1></div>
+         <div>
+           <p>Paytm offers India's quickest multi-purpose,  <br> hassle-free loan. It is 100% digital, <br> transparent and paperless.</p></div>
+         <div> 
+           <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
+           <!-- trageting element and fill the color in svg -->
+     <div class="flex h-12 w-36 group    transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-[#002970] hover:bg-[#00BAF2]   text-white border hover:border-[#00BAF2]">
+       <a class="mr-2" href="#">Learn More </a>
+        <div class="flex gap-3 ">
+         <span class=" group-hover:translate-x-2  transition duration-300"> <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+     </div>
+        </div>
+       </div>
+
+   
+     </div>
+   </div>
+    
+  
+
+  </div>
+</div>
+
+
+<!-- ....>>> -->
 
 
 
+
+
+
+
+
+
+
+
+
+<!-- ........................................................................................................................................... -->
+
+<!--  -->
+<div class="h-auto max-w-[1280px] mx-auto bg-[#FFFF]">
+  <div class="pt-20 text-center">
+    <h1 class="text-2xl  sm:text-4xl  font-bold">Business Services by Paytm</h1>
+  </div>
+
+<!-- ..................................... -->
+<div class="mt-10 py-14 pl-14  rounded h-auto bg-[#F5F7FA] ">
+  <div class="flex flex-col gap-10 justify-between  md:justify-between    md:flex-row ">
+   <div class="flex pt-10 flex-col gap-4">
+  
+     <div> 
+       <h1 class="text-4xl   font-bold">Accept payments <br> online with ease</h1></div>
+     <div>
+       <p>Grow your business with the payment<br> gateway  that powers   India’s largest brands  <br> and even the Paytm App</p></div>
+     <div> 
+       <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
+       <!-- trageting element and fill the color in svg -->
+     <div class="flex h-12 w-36 group    transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-[#002970] hover:bg-[#00BAF2]   text-white border hover:border-[#00BAF2]">
+       <a class="mr-2" href="#">Learn More </a>
+        <div class="flex gap-3 ">
+         <span class=" group-hover:translate-x-2  transition duration-300"> <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+     </div>
+    </div>
+   </div>
+   <div>
+   <img class="max-w-[250px]  sm:max-w-[400px] sm:h-[350px] "src="./assets/paytm-business.webp" alt="">
+   </div> 
+ </div>
+</div>
+
+<!--  -->
+<div class="mt-10 py-14 pl-14  rounded h-auto bg-[#F5F7FA] ">
+  <div class="flex flex-col gap-10 justify-between  md:justify-between    md:flex-row ">
+   <div class="flex pt-10 flex-col gap-4">
+  
+     <div> 
+       <h1 class="text-4xl   font-bold">In-shop payments <br> powered by Paytm.</h1></div>
+     <div>
+       <p>Millions of small & big businesses <br> use Paytm to accept payments anywhere <br> any time with a wide range of solutions  <br> for all kind of merchants</p></div>
+     <div> 
+       <!-- https://github.com/tailwindlabs/tailwindcss/issues/1984 -->
+       <!-- trageting element and fill the color in svg -->
+     <div class="flex h-12 w-36 group    transition-all duration-300 rounded-3xl text-center p-3 items-center justify-center bg-[#002970] hover:bg-[#00BAF2]   text-white border hover:border-[#00BAF2]">
+       <a class="mr-2" href="#">Learn More </a>
+        <div class="flex gap-3 ">
+         <span class=" group-hover:translate-x-2  transition duration-300"> <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+     </div>
+    </div>
+   </div>
+   <div>
+   <img class="max-w-[280x]  sm:max-w-[400px] sm:h-[350px] "src="./assets/in-shop-payments.webp" alt="">
+   </div> 
+ </div>
 </div>
 
 
 
+<div class="h-auto flex flex-col">
+
+<div class=" h-full md:h-[70vh]">
+    <div class="pt-20 text-center">
+        <h1 class=" text-2xl  sm:text-4xl  font-bold">Business Services by Paytm</h1>
+      </div>    
+    
+    <div class="flex flex-col  md:flex-row gap-14  px-4 justify-between items-center ">    
+      <div class=" flex flex-col gap-7  h-auto  w-[260px]"><img  class="w-[240px] h-[220px]"  src="./assets/dashboard.webp" alt=""> <h1 class="text-black text-2xl font-bold"> POS Billing Software</h1>    <div><p>Say Hello to Smart Retail Business Management</p> <p class="font-bold">Learn  More</p></div></div>
+      <div class=" flex flex-col gap-7  h-auto  w-[260px]"><img  class="w-[240px] h-[220px]"  src="./assets/zeroper.webp" alt="">  <h1 class="text-black text-2xl font-bold" > Paytm for Business App</h1>   <div><p>Everything you need to manage your business on your phone</p> <p class="font-bold">Learn more</p> </div></div>
+      <div class=" flex flex-col gap-7  h-auto  w-[260px]"><img  class="w-[240px] h-[220px]"  src="./assets/advertise.webp" alt=""> <h1 class="text-black text-2xl font-bold"> Advertise on Paytm </h1>     <div><p>Grow your business by advertising on India’s largest mobile business</p><p class="font-bold">Learn more</p></div></div>
+      <div class=" flex flex-col gap-7  h-auto  w-[260px]"><img  class="w-[240px] h-[220px]"  src="./assets/business-khata.webp" alt=""> <h1 class="text-black text-2xl font-bold"> Business Khata</h1>     <div><p>Grow your business by advertising on India’s largest mobile business</p> <p class="font-bold">Learn more</p> </div></div>
+    </div>
+</div>
+ </div>
+<!-- ............................................ -->
+
+</div>
+<!-- ........................................................................................................................................... -->
 
 
 
@@ -375,14 +600,61 @@
 
 
 
+<!-- blue card second last part of site -->
+
+<div class="bg-[#F0FBFF] h-auto ">
+<div class="max-w-[1280px] mx-auto    pt-14 ">
+
+
+
+  <div class="bg-white  md:h-auto flex h-auto p-5 items-center justify-center   ">
+    <div class=" flex flex-col items-center  gap-7 md:flex-row   md:gap-24">
+     <div class=" flex gap-7 sm:gap-20 flex-col ">
+       <div><img  class=" h-[60px] w-[150px] "src="./assets/paytm-money-logo.webp" alt=""></div>
+       <div>
+         <p class="text-sm pb-3">Best travel solutions
+           <br> with quick ticket , <br> bookings, great offers <br> and easy refunds</p>
+         <h6 class="text-[#00B7EF]">Learn More</h6>
+       </div>
+     </div>
+     <div class="  flex-row  flex items-center justify-center gap-3  sm:justify-between  sm:gap-9 flex-wrap  ">
+       <div class="bg-[#00B7EF] hover:bg-[#46C5F0]  w-[140px] h-[210px]  sm:w-[200px] sm:h-[260px] px-1 pt-1  sm:gap-10  gap-3 rounded-2xl flex flex-col" ><div><img class="w-[198px] h-[150px] rounded-xl" src="./assets/invest-in-stock.webp" alt=""></div> <div class="text-white mx-auto"><p class="font-bold">Invest in Stock</p></div></div>
+       <div class="bg-[#00B7EF] hover:bg-[#46C5F0]  w-[140px] h-[210px]  sm:w-[200px] sm:h-[260px] px-1 pt-1  sm:gap-10  gap-3 rounded-2xl flex flex-col" ><div><img class="w-[198px] h-[150px] rounded-xl" src="./assets/ipo.webp" alt=""></div> <div class="text-white mx-auto"> <p class="font-bold"> Apply for IPO </p> </div></div>
+       <div class="bg-[#00B7EF] hover:bg-[#46C5F0]  w-[140px] h-[210px]  sm:w-[200px] sm:h-[260px] px-1 pt-1  sm:gap-10  gap-3 rounded-2xl flex flex-col" ><div><img class="w-[198px] h-[150px] rounded-xl" src="./assets/etsf.webp" alt=""></div>  <div class="text-white mx-auto"> <p class="font-bold"> Envest In ETFs </p> </div></div>
+       <div class="bg-[#00B7EF] hover:bg-[#46C5F0]  w-[140px] h-[210px]  sm:w-[200px] sm:h-[260px] px-1 pt-1  sm:gap-10  gap-3 rounded-2xl flex flex-col" ><div><img class="w-[198px] h-[150px] rounded-xl" src="./assets/buy-gold.webp" alt=""></div>   <div class="text-white mx-aut"> <p class="font-bold"> Buy Gold </p> </div></div>
+     </div>
+   </div>    
+ </div>
+
+
+   <div class="bg-white  md:h-[400px] mt-10 h-auto p-3 flex items-center justify-center  ">
+       <div class="flex flex-col items-center gap-7 justify-center md:flex-row md:gap-24">
+        <div class=" flex gap-7 sm:gap-20 flex-col ">
+          <div><img  class=" h-[60px] w-[150px] "src="./assets/paytm-travel.webp" alt=""></div>
+          <div>
+            <p class="text-sm pb-3">Best travel solutions
+              <br> with quick ticket , <br> bookings, great offers <br> and easy refunds</p>
+            <h6 class="text-[#00B7EF]">Learn More</h6>
+          </div>
+        </div>
+        <div class="flex  items-center justify-center   sm:justify-between gap-2 sm:gap-9 flex-wrap  ">
+          <div class="bg-[#00B7EF] hover:bg-[#46C5F0]  w-[140px]  h-[210px]  sm:w-[200px] sm:h-[260px] pt-2 px-3 gap-3   sm:px-5 sm:pt-10  sm:gap-14 rounded-2xl flex flex-col" ><div><img class="w-[64px] h-[64px]" src="./assets/flight-logo.webp" alt=""></div> <div class="text-white"><p class="font-bold">Flat 14% Cashback  </p> <p class="text-xs">with code welcome EFLIGHT</p> </div></div>
+          <div class="bg-[#00B7EF] hover:bg-[#46C5F0]  w-[140px]  h-[210px]  sm:w-[200px] sm:h-[250px] pt-2 px-3 gap-3  sm:px-5 sm:pt-10  sm:gap-14  rounded-2xl flex flex-col" ><div><img class="w-[64px] h-[64px]" src="./assets/refund-logo.webp" alt=""></div> <div class="text-white"> <p class="font-bold"> 100% Refund </p> <p class="text-xs">With payment cancellation Protect</p> </div></div>
+          <div class="bg-[#00B7EF] hover:bg-[#46C5F0]  w-[140px]  h-[210px]  sm:w-[200px] sm:h-[250px] pt-2 px-3 gap-3  sm:px-5 sm:pt-10  sm:gap-14  rounded-2xl flex flex-col" ><div><img class="w-[64px] h-[64px]" src="./assets/bus-tickets.png" alt=""></div>  <div class="text-white"> <p class="font-bold"> Flat 10% Cashback </p> <p class="text-xs">with code Happy bus</p> </div></div>
+          <div class="bg-[#00B7EF] hover:bg-[#46C5F0]  w-[140px]  h-[210px]  sm:w-[200px] sm:h-[250px] pt-2 px-3 gap-3  sm:px-5 sm:pt-10  sm:gap-14  rounded-2xl flex flex-col" ><div><img class="w-[64px] h-[64px]" src="./assets/sanitized.webp" alt=""></div>   <div class="text-white"> <p class="font-bold"> sanitised </p> <p class="text-xs">Sanitised bus Options with Travel Safe+</p> </div></div>
+        </div>
+      </div>    
+    </div>
+
+    
 
 
 
 
+ </div>  
+</div>
 
-
-
-
+<!-- below playstore btn an d footer -->
 
 
 
