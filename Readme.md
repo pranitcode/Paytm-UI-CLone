@@ -44,7 +44,7 @@ I built this project in 48 hours, For making this project, I used HTML and Tailw
 
    [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@pranitingole&color=9cf&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/pranitingole/) 
 
-***Glad to see you here! Show some love by ❤️ [like](findcoder.io/project/paytm-ui-clone/631256888dac50307e6ecf01) this project on [findcoder](https://www.findcoder.io/u/pranitingole) .***
+***Glad to see you here! Show some love by ❤️ [like](https://www.findcoder.io/project/paytm-ui-clone/631256888dac50307e6ecf01) this project on [findcoder](https://www.findcoder.io/u/pranitingole) .***
 
 
 ******
